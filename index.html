@@ -1,60 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Assignment</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1>JavaScript Assignment</h1>
-        <p>Parts 1 – 5</p>
-    </header>
-
-    <main>
-
-        <section class="card" id="part1">
-            <h2>Part 1 – JavaScript Basics</h2>
-            <p class="note">Output is shown in the browser console (F12)</p>
-            <button onclick="runPart1()">Run Console Output</button>
-            <div class="output" id="output1"></div>
-        </section>
-
-        <section class="card" id="part2">
-            <h2>Part 2 – DOM Manipulation</h2>
-            <h3 id="domHeading">Welcome to my website</h3>
-            <button onclick="changeHeading()">Change Heading</button>
-        </section>
-
-        <section class="card" id="part3">
-            <h2>Part 3 – Event Handling</h2>
-            <button id="eventBtn">Click me!</button>
-            <p id="eventMessage"></p>
-        </section>
-
-        <section class="card" id="part4">
-            <h2>Part 4 – Simple Calculator</h2>
-            <div class="calc-inputs">
-                <input type="number" id="num1" placeholder="Number 1">
-                <input type="number" id="num2" placeholder="Number 2">
-            </div>
-            <button onclick="calculate()">Calculate</button>
-            <div class="output" id="calcResult"></div>
-        </section>
-
-        <section class="card" id="part5">
-            <h2>Part 5 – To-Do List</h2>
-            <div class="todo-input">
-                <input type="text" id="taskInput" placeholder="Enter a task...">
-                <button onclick="addTask()">Add</button>
-            </div>
-            <ul id="taskList"></ul>
-        </section>
-
-    </main>
-
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my-app</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
