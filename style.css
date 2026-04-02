@@ -1,4 +1,4 @@
-/* General reset and base styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@ body {
     padding: 20px;
 }
 
-/* Header */
 header {
     text-align: center;
     margin-bottom: 30px;
@@ -32,7 +31,6 @@ header p {
     opacity: 0.75;
 }
 
-/* Main layout */
 main {
     max-width: 750px;
     margin: 0 auto;
@@ -41,7 +39,6 @@ main {
     gap: 20px;
 }
 
-/* Cards for each section */
 .card {
     background-color: white;
     border-radius: 10px;
@@ -63,7 +60,6 @@ main {
     color: #444;
 }
 
-/* Buttons */
 button {
     background-color: #3498db;
     color: white;
@@ -79,7 +75,6 @@ button:hover {
     background-color: #2980b9;
 }
 
-/* Input fields */
 input[type="text"],
 input[type="number"] {
     padding: 8px 12px;
@@ -95,14 +90,12 @@ input[type="number"]:focus {
     border-color: #3498db;
 }
 
-/* Note text */
 .note {
     font-size: 0.85rem;
     color: #888;
     margin-bottom: 12px;
 }
 
-/* Output boxes */
 .output {
     margin-top: 15px;
     background-color: #f8f9fa;
@@ -118,7 +111,6 @@ input[type="number"]:focus {
     display: block;
 }
 
-/* Calculator inputs */
 .calc-inputs {
     display: flex;
     gap: 10px;
@@ -129,7 +121,6 @@ input[type="number"]:focus {
     width: 50%;
 }
 
-/* To-do list */
 .todo-input {
     display: flex;
     gap: 10px;
@@ -194,7 +185,6 @@ input[type="number"]:focus {
     background-color: #c0392b;
 }
 
-/* Event message */
 #eventMessage {
     margin-top: 12px;
     font-size: 1rem;
